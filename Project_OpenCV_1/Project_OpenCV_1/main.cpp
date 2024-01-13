@@ -1,17 +1,18 @@
-#include<opencv2/imgcodecs.hpp>
-#include<opencv2/video.hpp>
-#include<opencv2/highgui.hpp>
+
+// Main.cpp
 
 #include<iostream>
 #include<stdio.h>
+#include"mystudy.h"
 
-using namespace std;
 
-int main(int arg, char** argu) {
-	cv::Mat img = cv::imread("cat.png");
+using namespace std; //std::생략 가능
+using namespace cv;	//cv::생략 가능
 
-	imshow("img", img);
-	cv::waitKey(0);
+
+int main(int arg, char** argu) { // int main()도 가능하고 명령행 인수를 받는경우 인수 개수와 argument를 (int arg, char** argu)로 받을 수 있음. 둘다 가능
+	Mat img = imread("cat.png"); // 프로젝트 경로: C:\Users\wogns\OneDrive\바탕 화면\OpenCV_study\Project_OpenCV_1\Project_OpenCV_1 에 있어야 함
+	showImg(img);
 
 	return 0;
 }

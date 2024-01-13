@@ -133,7 +133,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="2_gaussianfilter.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="1_showImg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mystudy.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project_OpenCV_1.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
