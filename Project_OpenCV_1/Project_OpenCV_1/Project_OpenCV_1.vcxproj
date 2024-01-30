@@ -134,6 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="2_gaussianfilter.cpp" />
+    <ClCompile Include="3_weightedsum.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="1_showImg.cpp" />
   </ItemGroup>

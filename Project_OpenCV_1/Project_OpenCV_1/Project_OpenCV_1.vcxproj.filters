@@ -24,6 +24,9 @@
     <ClCompile Include="1_showImg.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="3_weightedsum.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mystudy.h">
